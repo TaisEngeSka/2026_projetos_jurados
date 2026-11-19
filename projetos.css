@@ -36,19 +36,10 @@
 
         .marca {
             margin-right: auto;
-            color: #063b59;
-            font-size: 23px;
-            font-weight: 900;
-            letter-spacing: -1px
-        }
-
-        .marca span {
-            color: var(--laranja)
-        }
-
-        .marca b {
-            font-size: 27px;
-            margin-left: 5px
+            width: 230px;
+            height: 46px;
+            object-fit: contain;
+            object-position: left center
         }
 
         .botao {
@@ -271,7 +262,8 @@
             }
 
             .marca {
-                font-size: 18px
+                width: 180px;
+                height: 40px
             }
 
             .pagina-lista {
